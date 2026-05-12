@@ -10,6 +10,7 @@ with a clear learner exercise.
 - Keep the learner guide in `README.md`.
 - Keep builder checks in `implementation-checklist.md`.
 - Keep maintainer checks in `review-checklist.md`.
+- Keep local verification steps in `demo-runbook.md`.
 - Use short Markdown lines so the content is easy to review in diffs.
 
 ## Runtime Pallets
@@ -84,3 +85,14 @@ with a clear learner exercise.
 - Explain the role of sessions and eras separately.
 - Explain where production benchmarking is required.
 - Link to official Polkadot and FRAME references.
+
+## Acceptance Evidence
+
+- Provide the local chain spec or document the template used.
+- Record the initial validator set.
+- Record the validator set after an era transition.
+- Record at least one nominator backing an elected validator.
+- Record one successful payout call.
+- Record one chill and unbond flow.
+- Record at least three rejected calls for invalid staking actions.
+- Do not publish private keys, seed phrases, or payout identifiers.

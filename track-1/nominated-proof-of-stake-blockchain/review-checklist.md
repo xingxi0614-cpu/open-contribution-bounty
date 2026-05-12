@@ -32,6 +32,7 @@ Use this checklist when reviewing the NPoS course submission for issue #5.
 - The test list covers state transitions, not only happy path calls.
 - The failure modes help learners debug realistic staking mistakes.
 - The security notes call out production risks and review areas.
+- The demo runbook gives reviewers concrete state checks to request.
 
 ## Maintainability
 
@@ -40,3 +41,4 @@ Use this checklist when reviewing the NPoS course submission for issue #5.
 - Links are current and official.
 - No public payout details are embedded in the course material.
 - The submission can be reviewed without running a custom external service.
+- The evidence package avoids private keys, seed phrases, and payment details.

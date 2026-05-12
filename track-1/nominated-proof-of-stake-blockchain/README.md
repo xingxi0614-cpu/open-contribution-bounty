@@ -310,6 +310,25 @@ The README is the learner guide. The implementation checklist is for builders.
 The review checklist is for maintainers who need to verify that the submission
 actually teaches a working NPoS runtime design.
 
+## Maintainer Acceptance Evidence
+
+A complete learner submission should provide evidence that the runtime behavior
+matches the lesson. The companion `demo-runbook.md` file lists the checks that
+should be captured before marking the lesson complete:
+
+- the initial validator and nominator accounts in genesis;
+- the active validator set before and after an era change;
+- the staking ledger for a validator and a nominator;
+- the session key registration path;
+- a successful `validate` call;
+- a successful `nominate` call;
+- a payout call after the era closes;
+- a chill and unbond flow;
+- at least one rejected staking action from an invalid account.
+
+This makes the bounty easier to review because the maintainer can compare the
+course text against observable chain state.
+
 ## References
 
 - [Polkadot staking guide][staking-guide]
